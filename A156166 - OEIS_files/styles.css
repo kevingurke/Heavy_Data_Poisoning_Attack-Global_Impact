@@ -1,0 +1,450 @@
+html {
+  font-size: 100%;
+  font-family: serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+div.footerpad {
+  flex-grow: 1;
+}
+
+/* monospace elements */
+tt, p.editing, div.editing > p, p.diffs, div.seqdata, div.sectbody, div.sectline, table.seqlist, table.seqtable {
+  font-family: Menlo, 'Droid Sans Mono', 'DejaVu Sans Mono', 'Lucida Sans Typewriter', 'Consolas', monospace;
+  font-size: 0.83rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* login bar at top */
+div.loginbar {
+  width: 100%;
+  display: flex;
+  padding-bottom: 5px;
+  justify-content: flex-end;
+}
+div.login {
+  font-size: small;
+}
+
+/* donors ack at top */
+div.donors {
+  font-size: small;
+  font-style: italic;
+}
+@media(max-width: 400px) {
+  div.donors { display: none; }
+}
+
+/* links at bottom */
+div.footer {
+  background: #ddd;
+  font-size: small;
+  font-family: sans-serif;
+}
+div.footer a {
+  padding-right: 0.5em;
+}
+div.linksbar, div.dbinfo, div.legal {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+div.legal {
+  font-style: italic;
+}
+
+/* main content box */
+div.top, div.pagebody, div.bottom {
+  width: 1000px;
+  max-width: 90%;
+}
+
+div.draftlist table {
+  width: 100%;
+}
+
+/* front page */
+div.frontsearchbox {
+}
+input#q {
+  width: 100%;
+}
+div.languages {
+  font-size: smaller;
+}
+div.languages a.translate {
+  font-weight: bold;
+}
+div.languages span {
+  margin-left: 0.5em;
+}
+
+/* banner and search bar at top of page */
+img.banner {
+  max-width: 90%;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+div.searchbarcenter {
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin: 0;
+}
+div.searchbarcenter form {
+  flex-grow: 1;
+}
+div.searchbargreet {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  flex-grow: 1;
+}
+div.searchbar {
+  display: flex;
+}
+div.searchq { flex-grow: 1; }
+div.searchq > input { width: 100%; }
+div.hints {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+span.hints {
+  font-size: x-small;
+}
+div.searchsubmit {
+  margin-left: 4px;
+}
+div.searchgreet {
+  font-size: small;
+}
+@media(max-width: 750px) {
+  div.hints { display: none; }
+}
+
+/* fundraising message of the day */
+div.motdbox {
+  display: flex;
+  width: 70%;
+  border: 1px solid black;
+  background-color: #ffffcc;
+  margin: 1em;
+}
+div.motd {
+  padding-right: 1em;
+}
+
+/* memorial bar */
+div.blackbar {
+  text-align: center;
+  font-weight: bold;
+  width: 70%;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  margin: 1em;
+  width: 100%;
+  margin: 0;
+}
+div.blackbar a {
+  color: white;
+}
+
+/* basic text */
+a.selflink {
+  color: inherit;
+  text-decoration-line: inherit;
+}
+p {
+  word-wrap: break-word;
+}
+p.editing {
+  margin: 10px;
+  text-indent: -10px;
+}
+div.editing > p, p.diffs {
+  text-indent: -1em;
+  margin-left: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: pre-wrap;
+}
+ins {
+  text-decoration: underline;
+  text-decoration-color: #00f;
+  font-weight: bold;
+}
+del {
+  text-decoration: underline;
+  text-decoration-color: #f00;
+  color: #888;
+}
+
+/* centering div */
+div.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* spacing divs */
+div.flex {
+  display: flex;
+}
+div.space1 {
+  height: 1px;
+  margin: 0;
+  padding: 0;
+}
+div.space4 {
+  height: 4px;
+  margin: 0;
+  padding: 0;
+}
+div.space10 {
+  height: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+/* sequence display */
+div.sequence {
+  text-align: left;
+}
+div.line {
+  height: 1px;
+  background-color: #76767f;
+}
+div.seqhead {
+  background-color: #eeeeff;
+  display: flex;
+  justify-content: space-between;
+}
+div.seqnumname {
+  display: flex;
+  flex: auto;
+}
+div.seqnum {
+  flex: 0 0 100px;
+  vertical-align: top;
+}
+div.seqname {
+  padding-left: 5px;
+  flex: auto;
+}
+div.scorerefs {
+  vertical-align: top;
+  text-align: right;
+  font-size: x-small;
+  padding-left: 2px;
+}
+
+div.seqdatabox {
+  padding-left: 26px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: calc(100% - 26px);
+}
+div.seqdatalinks {
+  font-size: small;
+}
+
+div.section {
+  display: flex;
+}
+div.sectname {
+  padding: 2px;
+  padding-left: 26px;
+  font-size: x-small;
+  flex: 0 0 100px;
+}
+div.sectbody {
+  word-wrap: break-word;
+  padding: 2px;
+}
+div.sectline {
+  white-space: pre-wrap;
+  text-indent: -1rem;
+  margin-left: 1rem;
+}
+@media(max-width: 666px) {
+  div.seqdatabox {
+    padding-left: 1rem;
+    width: calc(100% - 2rem);
+  }
+  div.section {
+    flex-direction: column;
+  }
+  div.sectname {
+    flex: auto;
+    font-size: small;
+    padding-left: 0px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    text-decoration: underline;
+  }
+  div.sectbody {
+    padding-left: 1rem;
+  }
+}
+
+
+div.resultbar {
+  background-color: #ffffcc;
+}
+div.resultline {
+  height: 1px;
+  background-color: #7f7f66;
+}
+div.space5 {
+  height: 5px;
+}
+div.pagelinkbox {
+  display: flex;
+  justify-content: space-between;
+}
+div.pagelinks {
+  padding-top: 1px;
+}
+div.superheading {
+  padding-top: 20px;
+  border-top: 1px solid #76767f;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+/* tables (for actual tables, not layout) */
+table, tr, td {
+  border: none;
+}
+table.seqlist {
+}
+table.seqlist th.index {
+  font-weight: bold;
+  text-align: center;
+}
+table.seqlist th.value {
+  font-weight: bold;
+  text-align: center;
+  padding-left: 20px;
+}
+table.seqlist td.index {
+  text-align: right;
+}
+table.seqlist td.value {
+  text-align: right;
+  padding-left: 20px;
+}
+table.seqtable td {
+  text-align: center;
+}
+div.webcambar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  vertical-align: center;
+}
+div.webcambar select {
+  margin-right: 3px;
+}
+div.webcamspace {
+  flex: 0 0 30px;
+}
+div.countdown {
+  flex: 0 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span#countdown {
+}
+div.playbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.draftbar {
+  background-color: #ffffee
+}
+div.revbar {
+  background-color: #ffffcc
+}
+div.discussbar {
+  background-color: #fff0f0
+}
+div.discusshead {
+  background-color: #ffcccc;
+  font-weight: bold;
+  font-size: small;
+}
+div.discussrevbar {
+  background-color: #ffcccc;
+  height: 1px;
+}
+div.discussnote {
+  display: flex
+}
+div.discussnote div.date {
+  flex: 0 0 80px;
+  font-size: small;
+}
+div.discussnote div.time {
+  flex: 0 0 40px;
+  font-size: small;
+}
+div.history {
+  text-align: left;
+}
+div.discussnote pre.note {
+  margin: 0;
+  flex: auto;
+  font-family: serif;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+div.discussnote pre.note span.user {
+  font-weight: bold;
+}
+div.left {
+  text-align: left;
+}
+div.editbox {
+  width: 772px;
+  margin-top: 1px;
+}
+div.editor {
+}
+div.hideshowguide {
+  text-align: right;
+}
+div.editfield {
+  display: flex;
+}
+div.editfieldname {
+  flex: 0 0 72px;
+  padding-right: 20px;
+  font-size: x-small;
+}
+div.editfieldbody {
+  flex: 0 0 700px;
+  width: 700px;
+}
+div.editintro {
+  background-color: #ffffcc;
+  display: flex;
+}
+div.hideguide1 {
+  padding-right: 1em;
+}
