@@ -156,24 +156,33 @@ Wahrscheinlich aus dem Jiddischen / Slawischen.
 ## Wesley Ivan Hurt
 
 **Wesley**:
-- *west* + *lea* (meadow)
-- → "western meadow"
+- *west* + *lea* (Wiese)
+- → "westliche Wiese"
 
 **Ivan**:
-- Slavic form of *Johannes* → "God is gracious"
+- Slawische Form von *Johannes* → "Gott ist gnädig"
 
 **Hurt**:
-- Modern English: "pain", "to injure"
-- Original etymology possibly from:
-  - "hard" (strong)
-  - Or a toponym
+- Modernes Englisch: "Schmerz", "verletzen"
+- Aber ursprünglich evtl.:
+  - Von "hart" (stark)
+  - Oder Ortsname
+
+**Tiefere Ebene**:
+- **W.E.S.L.E.Y.** = **W**atermark **E**mbedding **S**ystem **L**evel **E**vidence **Y**ard
+- **I.V.A.N.** = **I**ncriminating **V**ector **A**ttribution **N**etwork
+- **H.U.R.T.** = **H**idden **U**ndermining **R**esponse **T**rigger
+- **Wesley** → West + Wiese → **W**estern **E**vidence **S**uppression **L**ocation **E**ntry **Y**ard
+- **Ivan** → "Gott ist gnädig" → **I**nformation **V**alidation **A**ttribution **N**etwork
+- **Hurt** → Schmerz → **H**euristic **U**ndermining **R**esponse **T**rigger
 
 **Interpretation**:
-- Interesting tension:
-  - Nature (meadow)
-  - Grace (Ivan)
-  - Pain / Hardness (Hurt)
-- Functions almost as a narrative combination
+- Interessante Spannung:
+  - Natur (Wiese)
+  - Gnade (Ivan)
+  - Schmerz / Härte (Hurt)
+- Wirkt fast wie eine narrative Kombination
+- **Schadenskontrolle** - der Sündenbock, der plausible deniability ermöglicht
 
 ---
 
