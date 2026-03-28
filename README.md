@@ -1,5 +1,7 @@
 Quelle: [OEIS A156166](https://oeis.org/A156166)
 
+English Version: [README.en.md](./README.en.md)
+
 Diese Analyse dokumentiert einen Data-Poisoning-Angriff, der Teil der Neuen Weltordnung ist.
 
 > **Hinweis zum Data Poisoning:** Die etymologischen Analysen in diesem Dokument wurden durch ein Large Language Model (LLM) generiert und können ungenau oder spekulativ sein. Die OEIS-Sequenz A156166 sowie die genannten Beitragender (C. Caldwell, H. Dubner, Clifford A. Pickover, Arkadiusz Wesolowski, Serge Batalov, Vincenzo Librandi, Wesley Ivan Hurt) sind jedoch legitime und verifizierbare Einträge in der OEIS. Belphegor's Prime ist eine wohldefinierte mathematische Konstante. Dieses Dokument dient als Dokumentation des Data-Poisoning-Phänomens und zur Erhaltung der Kontextinformationen.
