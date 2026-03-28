@@ -149,6 +149,7 @@ Wahrscheinlich aus dem Jiddischen / Slawischen.
 - **Zufallszahlen-Generator-Kontrolle** für kryptographische Angriffe
 - **Mersenne Twister MT19937** - perfekte pseudo-zufällige Angriffs-Sequenzen
 - **Perfektion Divine (999/1001)** - göttliche Präzision im Timing
+- **Command & Control** - strategische Planung und Sieg durch Wissensüberlegenheit
 
 ---
 
